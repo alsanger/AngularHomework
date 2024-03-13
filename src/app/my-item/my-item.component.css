@@ -1,0 +1,21 @@
+.items li.selected {
+    background-color: rgb(143, 187, 130);
+    color: white;
+}
+.items li.selected:hover {
+    background-color: rgb(118, 155, 106);
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+li {
+    font-size: 20px;
+    width: 200px;
+}  

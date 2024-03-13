@@ -1,0 +1,11 @@
+<h3>{{selectedItem.name}}</h3>
+    <p>{{selectedItem.price}} UAH</p>
+    <p>{{selectedItem.description}}</p>
+<hr>
+<ul class="items">
+    <li *ngFor = "let item of myProducts"
+        (click)="onSelect(item)"
+        [class.selected]="item === selectedItem">
+        {{item.name}}
+    </li>
+</ul>
